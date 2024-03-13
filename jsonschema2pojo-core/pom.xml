@@ -4,14 +4,24 @@
 
     <parent>
         <artifactId>jsonschema2pojo</artifactId>
-        <groupId>org.jsonschema2pojo</groupId>
-        <version>1.2.2-SNAPSHOT</version>
+        <groupId>io.github.jiri-meluzin</groupId>
+        <version>1.2.2-VFGenericsFix-SNAPSHOT</version>
     </parent>
 
     <artifactId>jsonschema2pojo-core</artifactId>
 
     <name>jsonschema2pojo-core</name>
 
+	<distributionManagement>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
+	</distributionManagement>
     <dependencies>
         <dependency>
             <groupId>javax.json.bind</groupId>
