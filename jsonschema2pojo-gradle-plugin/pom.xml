@@ -5,7 +5,7 @@
     <parent>
         <artifactId>jsonschema2pojo</artifactId>
         <groupId>io.github.jiri-meluzin</groupId>
-        <version>1.2.2-VFGenericsFix-SNAPSHOT</version>
+        <version>1.2.2-VFGenericsFix</version>
     </parent>
 
     <artifactId>jsonschema2pojo-gradle-plugin</artifactId>

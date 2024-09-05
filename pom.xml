@@ -10,7 +10,7 @@
 
     <groupId>io.github.jiri-meluzin</groupId>
     <artifactId>jsonschema2pojo</artifactId>
-    <version>1.2.2-VFGenericsFix-SNAPSHOT</version>
+    <version>1.2.2-VFGenericsFix</version>
 
     <packaging>pom</packaging>
     <name>jsonschema2pojo</name>
@@ -36,19 +36,19 @@
         <module>jsonschema2pojo-integration-tests</module>
         <module>jsonschema2pojo-maven-plugin</module>
     </modules>
+    <scm>
+        <url>https://github.com/jiri-meluzin/jsonschema2pojo</url>
+        <connection>scm:git:git://github.com/jiri-meluzin/jsonschema2pojo.git</connection>
+        <developerConnection>scm:git:ssh://github.com:jiri-meluzin/jsonschema2pojo.git</developerConnection>
+    </scm>
 
     <developers>
         <developer>
-            <name>Joe Littlejohn</name>
-            <email>joe.littlejohn@gmail.com</email>
+            <id>jiri-meluzin</id>
+            <name>Jiri Meluzin</name>
+            <email>meluzin.jirka@gmail.com</email>
         </developer>
     </developers>
-
-    <scm>
-        <url>https://github.com/joelittlejohn/jsonschema2pojo</url>
-        <connection>scm:git:git@github.com:joelittlejohn/jsonschema2pojo.git</connection>
-        <developerConnection>scm:git:git@github.com:joelittlejohn/jsonschema2pojo.git</developerConnection>
-    </scm>
 
     <licenses>
         <license>
